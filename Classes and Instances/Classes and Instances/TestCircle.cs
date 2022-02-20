@@ -70,6 +70,17 @@ namespace Classes_and_Instances
             Rectangle r1 = new Rectangle(1.2f, 3.4F);
             Console.WriteLine(r1.toString());
 
+            Rectangle r2 = new Rectangle();
+            Console.WriteLine(r2.getArea());
+
+            r1.setLength(5.6f);
+            r1.setWidth(7.8f);
+            Console.WriteLine(r1.toString());
+            Console.WriteLine("length is: " + r1.getLength());
+            Console.WriteLine("length is: " + r1.getWidth());
+
+            Console.WriteLine("area is: " + r1.getArea());
+            Console.WriteLine("perimeter is: " + r1.getPerimeter());
 
             #endregion
 
@@ -218,6 +229,11 @@ namespace Classes_and_Instances
             public double getArea()
             {
                 return width * length;
+            }
+
+            public double getPerimeter()
+            {
+                return 2 * length + 2 * width;
             }
 
             public string toString()
