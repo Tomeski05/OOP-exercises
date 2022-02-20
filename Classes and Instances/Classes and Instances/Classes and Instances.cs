@@ -86,6 +86,28 @@ namespace Classes_and_Instances
 
             #region Task4
 
+            // Test constructor and toString()
+            //Employee e1 = new Employee(8, "Bob", "Bobsky", 2500);
+            //Console.WriteLine(e1.toString());
+
+            //// Test Setters and Getters
+            //e1.setSalary(999);
+            //Console.WriteLine(e1.toString());
+            //Console.WriteLine("Id is: " + e1.getId());
+            //Console.WriteLine("First name is: " + e1.getFirstName());
+            //Console.WriteLine("Last name is: " + e1.getLastName());
+            //Console.WriteLine("The salary is: " + e1.getSalary());
+
+            //Console.WriteLine("Name is: " + e1.getName());
+            //Console.WriteLine("Annual salary is: " + e1.getAnnualSalary());
+
+            //// Test raiseSalary()
+            //Console.WriteLine(e1.raiseSalary(10));
+
+            #endregion
+
+            #region Task5
+
 
 
             #endregion
@@ -253,6 +275,73 @@ namespace Classes_and_Instances
         #endregion
 
         #region Task4
+
+        //public class Employee
+        //{
+        //    private int id;
+        //    private string firstName;
+        //    private string lastName;
+        //    private int salary;
+
+        //    public Employee(int id, string firstName, string lastName, int salary)
+        //    {
+        //        this.id = id;
+        //        this.firstName = firstName;
+        //        this.lastName = lastName;
+        //        this.salary = salary;
+        //    }
+
+        //    public int getId()
+        //    {
+        //        return id;
+        //    }
+
+        //    public string getFirstName()
+        //    {
+        //        return firstName;
+        //    }
+
+        //    public string getLastName()
+        //    {
+        //        return lastName;
+        //    }
+
+        //    public string getName()
+        //    {
+        //        return $"{ firstName } { lastName }";
+        //    }
+
+        //    public int getSalary()
+        //    {
+        //        return salary;
+        //    }
+
+        //    public void setSalary(int salary)
+        //    {
+        //        this.salary = salary;
+        //    }
+
+        //    public int getAnnualSalary()
+        //    {
+        //        return salary * 12;
+        //    }
+
+        //    public int raiseSalary(int percent)
+        //    {
+        //        return salary * percent / 100 + salary;
+        //    }
+
+        //    public string toString()
+        //    {
+        //        return $"Employee with id {id} first name {firstName} and last name {lastName} has salary {salary}";
+        //    }
+
+        //}
+
+
+        #endregion
+
+        #region Task5
 
 
 
