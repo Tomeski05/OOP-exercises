@@ -51,20 +51,31 @@ namespace Classes_and_Instances
 
             #region Task2
 
-            Circle c1 = new Circle(1.1);
-            Console.WriteLine(c1.getRadius());
+            //Circle c1 = new Circle(1.1);
+            //Console.WriteLine(c1.getRadius());
 
-            Circle c2 = new Circle();
-            Console.WriteLine(c2.getRadius());
+            //Circle c2 = new Circle();
+            //Console.WriteLine(c2.getRadius());
+            //Console.WriteLine(c2.toString());
+            //Console.WriteLine(c2);
 
-            c1.setRadius(2.2);
-            Console.WriteLine(c1.getRadius());
-            Console.WriteLine("the area is " + c1.getArea() + "the perimetar is " + c1.getCircumference());
+            //c1.setRadius(2.2);
+            //Console.WriteLine(c1.getRadius());
+            //Console.WriteLine("the area is " + c1.getArea() + "the perimetar is " + c1.getCircumference());
+
+            #endregion
+
+            #region Task3
+
+            Rectangle r1 = new Rectangle(1.2f, 3.4F);
+            Console.WriteLine(r1.toString());
+
 
             #endregion
 
             Console.ReadLine();
         }
+
         #region Task1
         //    public class Circle
         //    {
@@ -123,45 +134,101 @@ namespace Classes_and_Instances
 
         #region Task2
 
-        public class Circle {
+        //public class Circle
+        //{
 
-        private double radius;
+        //    private double radius;
 
-        public Circle()
-        {
-            radius = 1.0;
-        }
+        //    public Circle()
+        //    {
+        //        radius = 1.0;
+        //    }
 
-        public Circle(double radius)
-        {
-            this.radius = radius;
-        }
+        //    public Circle(double radius)
+        //    {
+        //        this.radius = radius;
+        //    }
 
-        public double getRadius()
-        {
-            return radius;
-        }
-        public void setRadius(double radius)
-        {
-            this.radius = radius;
-        }
+        //    public double getRadius()
+        //    {
+        //        return radius;
+        //    }
+        //    public void setRadius(double radius)
+        //    {
+        //        this.radius = radius;
+        //    }
 
-        public double getArea()
-        {
-            return radius * radius * Math.PI;
-        }
+        //    public double getArea()
+        //    {
+        //        return radius * radius * Math.PI;
+        //    }
 
-        public double getCircumference()
-        {
-            return 2 * Math.PI * radius;
-        }
+        //    public double getCircumference()
+        //    {
+        //        return 2 * Math.PI * radius;
+        //    }
 
-        public string toString()
-        {
-            return "Circle";
-        }
-    }
+        //    public string toString()
+        //    {
+        //        return "Circle";
+        //    }
+        //}
 
         #endregion
+
+        #region Task3
+
+        public class Rectangle
+        {
+            private float length;
+            private float width;
+
+            public Rectangle()
+            {
+                length = 1.2f;
+                width = 3.4f;
+            }
+
+            public Rectangle(float length, float width)
+            {
+                this.length = length;
+                this.width = width;
+            }
+
+            public float getLength()
+            {
+                return length;
+            }
+
+            public void setLength(float length)
+            {
+                this.length = length;
+            }
+
+            public float getWidth()
+            {
+                return width;
+            }
+
+            public void setWidth(float width)
+            {
+                this.width = width;
+            }
+
+            public double getArea()
+            {
+                return width * length;
+            }
+
+            public string toString()
+            {
+               return $"{length} + {width}";
+            }
+
+        }
+
+
+        #endregion
+
     }
 }
