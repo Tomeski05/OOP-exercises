@@ -109,10 +109,45 @@ namespace Classes_and_Instances
             #region Task5
 
             // Test constructor and toString()
-            InvoiceItem inv1 = new InvoiceItem ("A101", "Pen Red", 888, 0.08);
-            Console.WriteLine(inv1.toString());
+            //InvoiceItem inv1 = new InvoiceItem ("A101", "Pen Red", 888, 0.08);
+            //Console.WriteLine(inv1.toString());
 
-            // Test Setters and Getters
+            //// Test Setters and Getters
+            //inv1.setQty(999);
+            //inv1.setUnitPrice(0.99);
+            //Console.WriteLine(inv1.toString());
+            //Console.WriteLine("Id is: " + inv1.getId());
+            //Console.WriteLine("Description is: " + inv1.getDesc());
+            //Console.WriteLine("Quantity is: " + inv1.getQty());
+            //Console.WriteLine("IUnitePrice is: " + inv1.getUnitPrice());
+
+            //// Test getTotal()
+            //Console.WriteLine("The total is: " + inv1.getTotal());
+
+            #endregion
+
+            #region Task6
+
+            // Test constructor and toString()
+            //Account a1 = new Account("A101", "Tan Ah Teck", 88);
+            //Console.WriteLine(a1.toString());
+
+            //Account a2 = new Account("A102", "Kumar");
+            //Console.WriteLine(a2.getBalance() + a2.getName() + a2.getId());
+
+            //// Test Getters
+            //Console.WriteLine("Id: " + a1.getId());
+            //Console.WriteLine("Name: " + a1.getName());
+            //Console.WriteLine("Balance: " + a1.getBalance());
+
+            //// Test credit() and debit()
+            //a1.credit(100);
+            //Console.WriteLine(a1.getId() + a1.getName() + a1.getBalance());
+            //a1.Debit(50);
+            //Console.WriteLine(a1.getBalance());
+
+            //// Test transfer()
+            //a1.transferTo(a2.toString, 100);
 
 
             #endregion
@@ -348,61 +383,137 @@ namespace Classes_and_Instances
 
         #region Task5
 
-        public class InvoiceItem
-        {
-            private string id;
-            private string desc;
-            private int qty;
-            private double unitPrice;
+        //public class InvoiceItem
+        //{
+        //    private string id;
+        //    private string desc;
+        //    private int qty;
+        //    private double unitPrice;
 
-            public InvoiceItem (string id, string desc, int qty, double unitPrice)
-            {
-                this.id = id;
-                this.desc = desc;
-                this.qty = qty;
-                this.unitPrice = unitPrice;
-            }
+        //    public InvoiceItem (string id, string desc, int qty, double unitPrice)
+        //    {
+        //        this.id = id;
+        //        this.desc = desc;
+        //        this.qty = qty;
+        //        this.unitPrice = unitPrice;
+        //    }
 
-            public string getId()
-            {
-                return id;
-            }
+        //    public string getId()
+        //    {
+        //        return id;
+        //    }
 
-            public string getDesc()
-            {
-                return desc;
-            }
+        //    public string getDesc()
+        //    {
+        //        return desc;
+        //    }
 
-            public int getQty()
-            {
-                return qty;
-            }
+        //    public int getQty()
+        //    {
+        //        return qty;
+        //    }
 
-            public void setQty(int qty)
-            {
-                this.qty = qty;
-            }
+        //    public void setQty(int qty)
+        //    {
+        //        this.qty = qty;
+        //    }
 
-            public double getUnitPrice()
-            {
-                return unitPrice;
-            }
+        //    public double getUnitPrice()
+        //    {
+        //        return unitPrice;
+        //    }
 
-            public void setUnitPrice( double unitPrice)
-            {
-                this.unitPrice = unitPrice;
-            }
+        //    public void setUnitPrice( double unitPrice)
+        //    {
+        //        this.unitPrice = unitPrice;
+        //    }
 
-            public double getTotal()
-            {
-                return unitPrice * qty;
-            }
+        //    public double getTotal()
+        //    {
+        //        return unitPrice * qty;
+        //    }
 
-            public string toString()
-            {
-                return $"Invoiceitem with id {id}, description {desc}, quantity {qty} and unit price {unitPrice}";
-            }
-        }
+        //    public string toString()
+        //    {
+        //        return $"Invoiceitem with id {id}, description {desc}, quantity {qty} and unit price {unitPrice}";
+        //    }
+        //}
+
+        #endregion
+
+        #region Task6
+
+        //public class Account
+        //{
+        //    private string id;
+        //    private string name;
+        //    private int balance = 0;
+
+        //    public Account(string id, string name)
+        //    {
+        //        this.id = id;
+        //        this.name = name;
+        //    }
+
+        //    public Account(string id, string name, int balance)
+        //    {
+        //        this.id = id;
+        //        this.name = name;
+        //        this.balance = balance;
+        //    }
+
+        //    public string getId()
+        //    {
+        //        return id;
+        //    }
+
+        //    public string getName()
+        //    {
+        //        return name;
+        //    }
+
+        //    public int getBalance()
+        //    {
+        //        return balance;
+        //    }
+
+        //    public int credit(int balance)
+        //    {
+        //        balance = 10;
+        //        return balance;
+        //    }
+
+        //    public int Debit(int amount)
+        //    {
+        //        if(amount <= balance)
+        //        {
+        //            return balance -= amount;
+        //        }
+        //        else
+        //        {
+        //            return -1;
+        //        }
+        //    }
+
+        //    public int transferTo(int amount, Account another)
+        //    {
+        //        if(amount <= balance)
+        //        {
+        //            another.balance += amount;
+        //        }
+        //        else
+        //        {
+        //            //return "Amount exceeded balance";
+        //        }
+
+        //        return balance;
+        //    }
+
+        //    public string toString()
+        //    {
+        //        return $"Account with id {id}, name {name} and balance {balance}";
+        //    }
+        //}
 
         #endregion
 
