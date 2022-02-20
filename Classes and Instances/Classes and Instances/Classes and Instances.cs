@@ -108,6 +108,11 @@ namespace Classes_and_Instances
 
             #region Task5
 
+            // Test constructor and toString()
+            InvoiceItem inv1 = new InvoiceItem ("A101", "Pen Red", 888, 0.08);
+            Console.WriteLine(inv1.toString());
+
+            // Test Setters and Getters
 
 
             #endregion
@@ -343,7 +348,61 @@ namespace Classes_and_Instances
 
         #region Task5
 
+        public class InvoiceItem
+        {
+            private string id;
+            private string desc;
+            private int qty;
+            private double unitPrice;
 
+            public InvoiceItem (string id, string desc, int qty, double unitPrice)
+            {
+                this.id = id;
+                this.desc = desc;
+                this.qty = qty;
+                this.unitPrice = unitPrice;
+            }
+
+            public string getId()
+            {
+                return id;
+            }
+
+            public string getDesc()
+            {
+                return desc;
+            }
+
+            public int getQty()
+            {
+                return qty;
+            }
+
+            public void setQty(int qty)
+            {
+                this.qty = qty;
+            }
+
+            public double getUnitPrice()
+            {
+                return unitPrice;
+            }
+
+            public void setUnitPrice( double unitPrice)
+            {
+                this.unitPrice = unitPrice;
+            }
+
+            public double getTotal()
+            {
+                return unitPrice * qty;
+            }
+
+            public string toString()
+            {
+                return $"Invoiceitem with id {id}, description {desc}, quantity {qty} and unit price {unitPrice}";
+            }
+        }
 
         #endregion
 
