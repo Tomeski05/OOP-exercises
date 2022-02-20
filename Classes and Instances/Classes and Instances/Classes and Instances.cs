@@ -2,7 +2,7 @@
 
 namespace Classes_and_Instances
 {
-    class TestCircle
+    class ClassesandInstances
     {
         static void Main(string[] args)
         {
@@ -67,20 +67,26 @@ namespace Classes_and_Instances
 
             #region Task3
 
-            Rectangle r1 = new Rectangle(1.2f, 3.4F);
-            Console.WriteLine(r1.toString());
+            //Rectangle r1 = new Rectangle(1.2f, 3.4F);
+            //Console.WriteLine(r1.toString());
 
-            Rectangle r2 = new Rectangle();
-            Console.WriteLine(r2.getArea());
+            //Rectangle r2 = new Rectangle();
+            //Console.WriteLine(r2.getArea());
 
-            r1.setLength(5.6f);
-            r1.setWidth(7.8f);
-            Console.WriteLine(r1.toString());
-            Console.WriteLine("length is: " + r1.getLength());
-            Console.WriteLine("length is: " + r1.getWidth());
+            //r1.setLength(5.6f);
+            //r1.setWidth(7.8f);
+            //Console.WriteLine(r1.toString());
+            //Console.WriteLine("length is: " + r1.getLength());
+            //Console.WriteLine("length is: " + r1.getWidth());
 
-            Console.WriteLine("area is: " + r1.getArea());
-            Console.WriteLine("perimeter is: " + r1.getPerimeter());
+            //Console.WriteLine("area is: " + r1.getArea());
+            //Console.WriteLine("perimeter is: " + r1.getPerimeter());
+
+            #endregion
+
+            #region Task4
+
+
 
             #endregion
 
@@ -189,59 +195,65 @@ namespace Classes_and_Instances
 
         #region Task3
 
-        public class Rectangle
-        {
-            private float length;
-            private float width;
+        //public class Rectangle
+        //{
+        //    private float length;
+        //    private float width;
 
-            public Rectangle()
-            {
-                length = 1.2f;
-                width = 3.4f;
-            }
+        //    public Rectangle()
+        //    {
+        //        length = 1.2f;
+        //        width = 3.4f;
+        //    }
 
-            public Rectangle(float length, float width)
-            {
-                this.length = length;
-                this.width = width;
-            }
+        //    public Rectangle(float length, float width)
+        //    {
+        //        this.length = length;
+        //        this.width = width;
+        //    }
 
-            public float getLength()
-            {
-                return length;
-            }
+        //    public float getLength()
+        //    {
+        //        return length;
+        //    }
 
-            public void setLength(float length)
-            {
-                this.length = length;
-            }
+        //    public void setLength(float length)
+        //    {
+        //        this.length = length;
+        //    }
 
-            public float getWidth()
-            {
-                return width;
-            }
+        //    public float getWidth()
+        //    {
+        //        return width;
+        //    }
 
-            public void setWidth(float width)
-            {
-                this.width = width;
-            }
+        //    public void setWidth(float width)
+        //    {
+        //        this.width = width;
+        //    }
 
-            public double getArea()
-            {
-                return width * length;
-            }
+        //    public double getArea()
+        //    {
+        //        return width * length;
+        //    }
 
-            public double getPerimeter()
-            {
-                return 2 * length + 2 * width;
-            }
+        //    public double getPerimeter()
+        //    {
+        //        return 2 * length + 2 * width;
+        //    }
 
-            public string toString()
-            {
-               return $"{length} + {width}";
-            }
+        //    public string toString()
+        //    {
+        //       return $"{length} + {width}";
+        //    }
 
-        }
+        //}
+
+
+        #endregion
+
+        #region Task4
+
 
 
         #endregion
