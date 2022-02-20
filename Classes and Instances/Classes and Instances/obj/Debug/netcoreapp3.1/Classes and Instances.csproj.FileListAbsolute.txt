@@ -1,0 +1,14 @@
+C:\Users\Filip\Desktop\Programming Course G3\OOP Exercises\Classes and Instances\Classes and Instances\bin\Debug\netcoreapp3.1\Classes and Instances.exe
+C:\Users\Filip\Desktop\Programming Course G3\OOP Exercises\Classes and Instances\Classes and Instances\bin\Debug\netcoreapp3.1\Classes and Instances.deps.json
+C:\Users\Filip\Desktop\Programming Course G3\OOP Exercises\Classes and Instances\Classes and Instances\bin\Debug\netcoreapp3.1\Classes and Instances.runtimeconfig.json
+C:\Users\Filip\Desktop\Programming Course G3\OOP Exercises\Classes and Instances\Classes and Instances\bin\Debug\netcoreapp3.1\Classes and Instances.runtimeconfig.dev.json
+C:\Users\Filip\Desktop\Programming Course G3\OOP Exercises\Classes and Instances\Classes and Instances\bin\Debug\netcoreapp3.1\Classes and Instances.dll
+C:\Users\Filip\Desktop\Programming Course G3\OOP Exercises\Classes and Instances\Classes and Instances\bin\Debug\netcoreapp3.1\Classes and Instances.pdb
+C:\Users\Filip\Desktop\Programming Course G3\OOP Exercises\Classes and Instances\Classes and Instances\obj\Debug\netcoreapp3.1\Classes and Instances.csproj.AssemblyReference.cache
+C:\Users\Filip\Desktop\Programming Course G3\OOP Exercises\Classes and Instances\Classes and Instances\obj\Debug\netcoreapp3.1\Classes and Instances.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Filip\Desktop\Programming Course G3\OOP Exercises\Classes and Instances\Classes and Instances\obj\Debug\netcoreapp3.1\Classes and Instances.AssemblyInfoInputs.cache
+C:\Users\Filip\Desktop\Programming Course G3\OOP Exercises\Classes and Instances\Classes and Instances\obj\Debug\netcoreapp3.1\Classes and Instances.AssemblyInfo.cs
+C:\Users\Filip\Desktop\Programming Course G3\OOP Exercises\Classes and Instances\Classes and Instances\obj\Debug\netcoreapp3.1\Classes and Instances.csproj.CoreCompileInputs.cache
+C:\Users\Filip\Desktop\Programming Course G3\OOP Exercises\Classes and Instances\Classes and Instances\obj\Debug\netcoreapp3.1\Classes and Instances.dll
+C:\Users\Filip\Desktop\Programming Course G3\OOP Exercises\Classes and Instances\Classes and Instances\obj\Debug\netcoreapp3.1\Classes and Instances.pdb
+C:\Users\Filip\Desktop\Programming Course G3\OOP Exercises\Classes and Instances\Classes and Instances\obj\Debug\netcoreapp3.1\Classes and Instances.genruntimeconfig.cache
