@@ -55,11 +55,11 @@ namespace Classes_and_Instances
             Console.WriteLine(c1.getRadius());
 
             Circle c2 = new Circle();
-            Console.WriteLine(c2.getArea());
+            Console.WriteLine(c2.getRadius());
 
             c1.setRadius(2.2);
             Console.WriteLine(c1.getRadius());
-            Console.WriteLine("radius is: " + c1.getRadius());
+            Console.WriteLine("the area is " + c1.getArea() + "the perimetar is " + c1.getCircumference());
 
             #endregion
 
