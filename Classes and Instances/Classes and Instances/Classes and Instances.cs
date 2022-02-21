@@ -174,6 +174,79 @@ namespace Classes_and_Instances
 
             #endregion
 
+            #region Task8
+
+            // Test constructors and toString()
+            //Time t1 = new Time(1, 2, 3);
+            //Console.WriteLine(t1.toString());
+
+            //// Test Setters and Getters
+            //t1.setHour(4);
+            //t1.setMinute(5);
+            //t1.setSecond(6);
+            //Console.WriteLine(t1.toString());
+            //Console.WriteLine("Hour is: " + t1.getHour());
+            //Console.WriteLine("Minute is: " + t1.getMinute());
+            //Console.WriteLine("Second is: " + t1.getSecond());
+
+            //// Test setTime()
+            //t1.setTime(23, 59, 58);
+            //Console.WriteLine(t1.toString());
+
+            // Test nextSecond();
+            //Console.WriteLine(t1.nextSecond());
+            //Console.WriteLine(t1.nextSecond().nextSecond());
+
+            //// Test previousSecond()
+            //Console.WriteLine(t1.previousSecond());
+            //Console.WriteLine(t1.previousSecond().previousSecond());
+
+
+            #endregion
+
+            #region Task9
+
+            //Ball ball = new Ball(1.1f, 2.2f, 10, 3.3f, 4.4f);
+            //Console.WriteLine(ball.toString());
+
+            //ball.setX(80.0f);
+            //ball.setY(35.0f);
+            //ball.setRadius(5);
+            //ball.setXDelta(4.0f);
+            //ball.setYDelta(6.0f);
+            //Console.WriteLine(ball.toString());  
+            //Console.WriteLine("x is: " + ball.getX());
+            //Console.WriteLine("y is: " + ball.getY());
+            //Console.WriteLine("radius is: " + ball.getRadius());
+            //Console.WriteLine("xDelta is: " + ball.getXDelta());
+            //Console.WriteLine("yDelta is: " + ball.getYDelta());
+
+            //// Bounce the ball within the boundary
+            //float xMin = 0.0f;
+            //float xMax = 100.0f;
+            //float yMin = 0.0f;
+            //float yMax = 50.0f;
+            //for (int i = 0; i < 15; i++)
+            //{
+            //    ball.move();
+            //    Console.WriteLine(ball);
+            //    float xNew = ball.getX();
+            //    float yNew = ball.getY();
+            //    int radius = ball.getRadius();
+
+            //    // Check boundary value to bounce back
+            //    if ((xNew + radius) > xMax || (xNew - radius) < xMin)
+            //    {
+            //        ball.reflectHorizontal();
+            //    }
+            //    if ((yNew + radius) > yMax || (yNew - radius) < yMin)
+            //    {
+            //        ball.reflectVertical();
+            //    }
+            //}
+
+            #endregion
+
             Console.ReadLine();
         }
 
@@ -594,6 +667,171 @@ namespace Classes_and_Instances
         //    public string toString()
         //    {
         //        return $"Day {day} month {month} year {year}";
+        //    }
+
+        //}
+
+        #endregion
+
+        #region Task8
+
+        //public class Time
+        //{
+        //    private int hour;
+        //    private int minute;
+        //    private int second;
+
+        //    public Time(int hour, int minute, int second)
+        //    {
+        //        this.hour = hour;
+        //        this.minute = minute;
+        //        this.second = second;
+        //    }
+
+        //    public int getHour()
+        //    {
+        //        return hour;
+        //    }
+
+        //    public int getMinute()
+        //    {
+        //        return minute;
+        //    }
+
+        //    public int getSecond()
+        //    {
+        //        return second;
+        //    }
+
+        //    public void setHour(int hour)
+        //    {
+        //        this.hour = hour;
+        //    }
+
+        //    public void setMinute(int minute)
+        //    {
+        //        this.minute = minute;
+        //    }
+
+        //    public void setSecond(int second)
+        //    {
+        //        this.second = second;
+        //    }
+
+        //    public void setTime(int hour, int minute, int second)
+        //    {
+        //        this.hour = hour;
+        //        this.minute = minute;
+        //        this.second = second;
+        //    }
+
+        //    public string toString()
+        //    {
+        //        return $"Hour is {hour} minute {minute} and second {second}";
+        //    }
+
+        //public Time nextSecond()
+        //{
+
+        //}
+
+        //public Time previousSecond()
+        //{
+
+        //}
+
+        //}
+
+        #endregion
+
+        #region Task9
+
+        //public class Ball
+        //{
+        //    private float x;
+        //    private float y;
+        //    private int radius;
+        //    private float xDelta;
+        //    private float yDelta;
+
+        //    public Ball(float x, float y, int radius, float xDelta, float yDelta)
+        //    {
+        //        this.x = x;
+        //        this.y = y;
+        //        this.radius = radius;
+        //        this.xDelta = xDelta;
+        //        this.yDelta = yDelta;
+        //    }
+
+        //    public float getX()
+        //    {
+        //        return x;
+        //    }
+
+        //    public void setX(float x)
+        //    {
+        //        this.x = x;
+        //    }
+
+        //    public float getY()
+        //    {
+        //        return y;
+        //    }
+
+        //    public void setY(float y)
+        //    {
+        //        this.y = y;
+        //    }
+
+        //    public int getRadius()
+        //    {
+        //        return radius;
+        //    }
+
+        //    public void setRadius(int radius)
+        //    {
+        //        this.radius = radius;
+        //    }
+
+        //    public float getXDelta()
+        //    {
+        //        return xDelta;
+        //    }
+
+        //    public void setXDelta(float xDelta)
+        //    {
+        //        this.xDelta = xDelta;
+        //    }
+
+        //    public float getYDelta()
+        //    {
+        //        return yDelta;
+        //    }
+
+        //    public void setYDelta(float yDelta)
+        //    {
+        //        this.yDelta = yDelta;
+        //    }
+
+        //    public void move()
+        //    {
+        //        x += xDelta;
+        //        y += yDelta ;
+        //    }
+
+        //    public void reflectHorizontal()
+        //    {
+        //        xDelta = -xDelta;
+        //    }
+
+        //    public void reflectVertical()
+        //    {
+        //        yDelta = -yDelta;
+        //    }
+
+        //    public string toString()
+        //    {
+        //        return $"Ball ({x, y}), speed ({xDelta, yDelta})";
         //    }
 
         //}
