@@ -96,7 +96,58 @@ namespace Exercises_on_Composition
 
             #region Task5
 
+            //MyPoint p1 = new MyPoint();  
+            //Console.WriteLine(p1.toString());     
+            //p1.setX(8);   
+            //p1.setY(6);
+            //Console.WriteLine("x is: " + p1.getX());
+            //Console.WriteLine("y is: " + p1.getY());
+            //p1.setXY(3, 0);
+            //Console.WriteLine(p1.getXY()[0]);
+            //Console.WriteLine(p1.getXY()[1]);
+            //Console.WriteLine(p1);
 
+            //MyPoint p2 = new MyPoint(0, 4);
+            //Console.WriteLine(p2);
+
+            //Console.WriteLine(p1.distance(p2));
+            //Console.WriteLine(p2.distance(p1));
+            //Console.WriteLine(p1.distance(5, 6));
+            //Console.WriteLine(p1.distance());
+
+            #endregion
+
+            #region Task6
+
+            //MyLine myLine = new MyLine(new MyPoint(0, 1), new MyPoint(3, 4));
+            //Console.WriteLine(myLine.getLength());
+            //Console.WriteLine(myLine.getGradient());
+            //Console.WriteLine(myLine.toString());
+            //Console.WriteLine(Arrays.toString(myLine.getBeginXY()));
+            //Console.WriteLine(Arrays.toString(myLine.getEndXY()));
+
+            #endregion
+
+            #region Task7
+
+            //MyCircle myCircle = new MyCircle(new MyPoint(5, 8), 6);
+            //Console.WriteLine(myCircle.distance(new MyCircle(new MyPoint(30, 46), 2)));
+            //Console.WriteLine(myCircle.getArea());
+            //Console.WriteLine(myCircle.getCircumference());
+            //Console.WriteLine(myCircle.toString());
+            //Console.WriteLine(Arrays.toString(myCircle.getCenterXY()));
+
+            #endregion
+
+            #region Task8
+
+            //MyTriangle myTriangle = new MyTriangle(new MyPoint(5, 5), new MyPoint(15, 15), new MyPoint(5, 25));
+            //Console.WriteLine(myTriangle.getPerimeter());
+            //Console.WriteLine(myTriangle.getType());
+            //Console.WriteLine(myTriangle.getV1());
+            //Console.WriteLine(myTriangle.getV2());
+            //Console.WriteLine(myTriangle.getV3());
+            //Console.WriteLine(myTriangle.toString());
 
             #endregion
 
@@ -563,6 +614,562 @@ namespace Exercises_on_Composition
 
         #region Task5
 
+        //public class MyPoint
+        //{
+        //    private int x;
+        //    private int y;
+
+        //    public MyPoint()
+        //    {
+
+        //    }
+
+        //    public MyPoint(int x, int y)
+        //    {
+        //        this.x = x;
+        //        this.y = y;
+        //    }
+
+        //    public int getX()
+        //    {
+        //        return x;
+        //    }
+
+        //    public void setX(int x)
+        //    {
+        //        this.x = x;
+        //    }
+
+        //    public int getY()
+        //    {
+        //        return y;
+        //    }
+
+        //    public void setY(int y)
+        //    {
+        //        this.y = y;
+        //    }
+
+        //    public int[] getXY()
+        //    {
+        //        return new int[] { this.x, this.y };
+        //    }
+
+        //    public void setXY(int x, int y)
+        //    {
+        //        this.x = x;
+        //        this.y = y;
+        //    }
+
+        //    public double distance(int x, int y)
+        //    {
+        //        return (double)Math.Sqrt(Math.Pow((x - this.x), 2) + Math.Pow((y - this.y), 2));
+        //    }
+
+        //    public double distance(MyPoint another)
+        //    {
+        //        return (double)Math.Sqrt(Math.Pow((another.x - this.x), 2) + Math.Pow((another.y - this.y), 2));
+        //    }
+
+        //    public double distance()
+        //    {
+        //        return (double)Math.Sqrt(Math.Pow((0 - this.x), 2) + Math.Pow((0 - this.y), 2));
+        //    }
+
+        //    public string toString()
+        //    {
+        //        return $"({ x} + { y} + )";
+        //    }
+
+        //}
+
+        #endregion
+
+        #region Task6
+
+        //class MyPoint
+        //{
+        //    private int x;
+        //    private int y;
+
+        //    public MyPoint()
+        //    {
+        //    }
+
+        //    public MyPoint(int x, int y)
+        //    {
+        //        this.x = x;
+        //        this.y = y;
+        //    }
+
+        //    public int getX()
+        //    {
+        //        return x;
+        //    }
+
+        //    public void setX(int x)
+        //    {
+        //        this.x = x;
+        //    }
+
+        //    public int getY()
+        //    {
+        //        return y;
+        //    }
+
+        //    public void setY(int y)
+        //    {
+        //        this.y = y;
+        //    }
+
+        //    public int[] getXY()
+        //    {
+        //        return new int[] { this.x, this.y };
+        //    }
+
+        //    public void setXY(int x, int y)
+        //    {
+        //        this.x = x;
+        //        this.y = y;
+        //    }
+
+        //    public double distance(int x, int y)
+        //    {
+        //        return (double)Math.Sqrt(Math.Pow((x - this.x), 2) + Math.Pow((y - this.y), 2));
+        //    }
+
+        //    public double distance(MyPoint another)
+        //    {
+        //        return (double)Math.Sqrt(Math.Pow((another.x - this.x), 2) + Math.Pow((another.y - this.y), 2));
+        //    }
+
+        //    public double distance()
+        //    {
+        //        return (double)Math.Sqrt(Math.Pow((0 - this.x), 2) + Math.Pow((0 - this.y), 2));
+        //    }
+
+        //}
+
+
+        //public class MyLine
+        //{
+        //    private MyPoint begin;
+        //    private MyPoint end;
+
+        //    public MyLine(int x1, int y1, int x2, int y2)
+        //    {
+        //        this.begin = new MyPoint(x1, y1);
+        //        this.end = new MyPoint(x2, y2);
+        //    }
+
+        //    public MyLine()
+        //    {
+        //        this.begin = begin;
+        //        this.end = end;
+        //    }
+
+        //    public MyPoint getBegin()
+        //    {
+        //        return begin;
+        //    }
+
+        //    public void setBegin(MyPoint begin)
+        //    {
+        //        this.begin = begin;
+        //    }
+
+        //    public MyPoint getEnd()
+        //    {
+        //        return end;
+        //    }
+
+        //    public void setEnd(MyPoint end)
+        //    {
+        //        this.end = end;
+        //    }
+
+        //    public void setBeginX(int x)
+        //    {
+        //        this.begin.setX(x);
+        //    }
+
+        //    public int getBeginX()
+        //    {
+        //        return begin.getX();
+        //    }
+
+        //    public void setBeginY(int y)
+        //    {
+        //        this.begin.setY(y);
+        //    }
+
+        //    public int getBeginY()
+        //    {
+        //        return begin.getY();
+        //    }
+
+        //    public void setEndX(int x)
+        //    {
+        //        this.end.setX(x);
+        //    }
+
+        //    public int getEndX()
+        //    {
+        //        return end.getX();
+        //    }
+
+        //    public void setEndY(int y)
+        //    {
+        //        this.end.setY(y);
+        //    }
+
+        //    public int getEndY()
+        //    {
+        //        return end.getY();
+        //    }
+
+        //    public void setBeginXY(int x, int y)
+        //    {
+        //        this.begin.setXY(x, y);
+        //    }
+
+        //    public int[] getBeginXY()
+        //    {
+        //        return begin.getXY();
+        //    }
+
+        //    public void setEndXY(int x, int y)
+        //    {
+        //        this.end.setXY(x, y);
+        //    }
+
+        //    public int[] getEndXY()
+        //    {
+        //        return end.getXY();
+        //    }
+
+        //    public double getLength()
+        //    {
+        //        return begin.distance(this.end);
+        //    }
+
+        //    public double getGradient()
+        //    {
+        //        
+        //    }
+
+        #endregion
+
+        #region Task7
+
+        //class MyPoint
+        //{
+
+        //    private int x;
+        //    private int y;
+
+        //    public MyPoint()
+        //    {
+        //    }
+
+        //    public MyPoint(int x, int y)
+        //    {
+        //        this.x = x;
+        //        this.y = y;
+        //    }
+
+        //    public int getX()
+        //    {
+        //        return x;
+        //    }
+
+        //    public void setX(int x)
+        //    {
+        //        this.x = x;
+        //    }
+
+        //    public int getY()
+        //    {
+        //        return y;
+        //    }
+
+        //    public void setY(int y)
+        //    {
+        //        this.y = y;
+        //    }
+
+        //    public int[] getXY()
+        //    {
+        //        return new int[] { this.x, this.y };
+        //    }
+
+        //    public void setXY(int x, int y)
+        //    {
+        //        this.x = x;
+        //        this.y = y;
+        //    }
+
+        //    public double distance(int x, int y)
+        //    {
+        //        return (double)Math.Sqrt(Math.Pow((x - this.x), 2) + Math.Pow((y - this.y), 2));
+        //    }
+
+        //    public double distance(MyPoint another)
+        //    {
+        //        return (double)Math.Sqrt(Math.Pow((another.x - this.x), 2) + Math.Pow((another.y - this.y), 2));
+        //    }
+
+        //    public double distance()
+        //    {
+        //        return (double)Math.Sqrt(Math.Pow((0 - this.x), 2) + Math.Pow((0 - this.y), 2));
+        //    }
+
+        //}
+
+        //     public string toString()
+        //     {
+        //        return 
+        //     }
+
+        //public class MyCircle
+        //{
+        //    private MyPoint center;
+        //    private int radius;
+
+        //    public MyCircle()
+        //    {
+        //    }
+
+        //    public MyCircle(MyPoint center, int radius)
+        //    {
+        //        this.center = center;
+        //        this.radius = radius;
+        //    }
+
+        //    public MyCircle(int x, int y, int radius)
+        //    {
+        //        this.center = new MyPoint(x, y);
+        //        this.radius = radius;
+        //    }
+
+        //    public MyPoint getCenter()
+        //    {
+        //        return center;
+        //    }
+
+        //    public void setCenter(MyPoint center)
+        //    {
+        //        this.center = center;
+        //    }
+
+        //    public int getRadius()
+        //    {
+        //        return radius;
+        //    }
+
+        //    public void setRadius(int radius)
+        //    {
+        //        this.radius = radius;
+        //    }
+
+        //    public int getCenterX()
+        //    {
+        //        return this.center.getX();
+        //    }
+        //    public int getCenterY()
+        //    {
+        //        return this.center.getY();
+        //    }
+
+        //    public void setCenterX(int x)
+        //    {
+        //        this.center.setX(x);
+        //    }
+
+        //    public void setCenterY(int y)
+        //    {
+        //        this.center.setX(y);
+        //    }
+
+        //    public int[] getCenterXY()
+        //    {
+        //        return this.center.getXY();
+        //    }
+
+        //    public void setCenterXY(int x, int y)
+        //    {
+        //        this.center.setXY(x, y);
+        //    }
+
+        //    public double getArea()
+        //    {
+        //        return Math.Pow(this.radius, 2) * Math.PI;
+        //    }
+
+        //    public double getCircumference()
+        //    {
+        //        return this.radius * 2 * Math.PI;
+        //    }
+
+        //    public double distance(MyCircle another)
+        //    {
+        //        return this.center.distance(another.center);
+        //    }
+
+        //    public string toString()
+        //    {
+        //        return $"";
+        //    }
+
+        //}
+
+
+        #endregion
+
+        #region Task8
+
+        class MyPoint
+        {
+
+            private int x;
+            private int y;
+
+            public MyPoint()
+            {
+            }
+
+            public MyPoint(int x, int y)
+            {
+                this.x = x;
+                this.y = y;
+            }
+
+            public int getX()
+            {
+                return x;
+            }
+
+            public void setX(int x)
+            {
+                this.x = x;
+            }
+
+            public int getY()
+            {
+                return y;
+            }
+
+            public void setY(int y)
+            {
+                this.y = y;
+            }
+
+            public int[] getXY()
+            {
+                return new int[] { this.x, this.y };
+            }
+
+            public void setXY(int x, int y)
+            {
+                this.x = x;
+                this.y = y;
+            }
+
+            public double distance(int x, int y)
+            {
+                return (double)Math.Sqrt(Math.Pow((x - this.x), 2) + Math.Pow((y - this.y), 2));
+            }
+
+            public double distance(MyPoint another)
+            {
+                return (double)Math.Sqrt(Math.Pow((another.x - this.x), 2) + Math.Pow((another.y - this.y), 2));
+            }
+
+            public double distance()
+            {
+                return (double)Math.Sqrt(Math.Pow((0 - this.x), 2) + Math.Pow((0 - this.y), 2));
+            }
+        }
+
+        public class MyTriangle
+        {
+            private MyPoint v1;
+            private MyPoint v2;
+            private MyPoint v3;
+
+            public MyTriangle(int x1, int y1, int x2, int y2, int x3, int y3)
+            {
+                this.v1 = new MyPoint(x1, y1);
+                this.v2 = new MyPoint(x2, y2);
+                this.v3 = new MyPoint(x3, y3);
+            }
+
+            public MyTriangle(MyPoint v1, MyPoint v2, MyPoint v3)
+            {
+                this.v1 = v1;
+                this.v2 = v2;
+                this.v3 = v3;
+            }
+
+            public MyPoint getV1()
+            {
+                return v1;
+            }
+
+            public void setV1(MyPoint v1)
+            {
+                this.v1 = v1;
+            }
+
+            public MyPoint getV2()
+            {
+                return v2;
+            }
+
+            public void setV2(MyPoint v2)
+            {
+                this.v2 = v2;
+            }
+
+            public MyPoint getV3()
+            {
+                return v3;
+            }
+
+            public void setV3(MyPoint v3)
+            {
+                this.v3 = v3;
+            }
+
+            public double getPerimeter()
+            {
+                return this.v1.distance(this.v2) + this.v2.distance(this.v3) + this.v3.distance(this.v1);
+            }
+
+            public string getType()
+            {
+                if (this.v1.distance(this.v2) == this.v2.distance(this.v3) && this.v1.distance(this.v2) == this.v3.distance(this.v1))
+                {
+                    return "Equilateral";
+                }
+                else if (this.v1.distance(this.v2) == this.v2.distance(this.v3) ||
+                       this.v1.distance(this.v2) == this.v3.distance(this.v1) ||
+                       this.v3.distance(this.v1) == this.v2.distance(this.v3)
+                       )
+                {
+                    return "Isosceles";
+                }
+                else
+                {
+                    return "Scalene";
+                }
+            }
+        }
+
+        public string toString()
+        {
+            return
+             }
 
 
         #endregion

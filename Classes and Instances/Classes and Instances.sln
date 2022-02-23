@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.31829.152
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Classes and Instances", "Classes and Instances\Classes and Instances.csproj", "{7DA0148B-4961-47AA-83F3-8AB82830D01D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercises on Composition", "Exercises on Composition\Exercises on Composition.csproj", "{B2F1E07A-1341-467C-B1FE-D7615D325561}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercises on Composition", "Exercises on Composition\Exercises on Composition.csproj", "{B2F1E07A-1341-467C-B1FE-D7615D325561}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "More Exercises on Classes", "More Exercises on Classes\More Exercises on Classes.csproj", "{4ABC4DA8-76F0-44E4-9D4B-F0C4256352EB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{B2F1E07A-1341-467C-B1FE-D7615D325561}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B2F1E07A-1341-467C-B1FE-D7615D325561}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B2F1E07A-1341-467C-B1FE-D7615D325561}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4ABC4DA8-76F0-44E4-9D4B-F0C4256352EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4ABC4DA8-76F0-44E4-9D4B-F0C4256352EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4ABC4DA8-76F0-44E4-9D4B-F0C4256352EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4ABC4DA8-76F0-44E4-9D4B-F0C4256352EB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
