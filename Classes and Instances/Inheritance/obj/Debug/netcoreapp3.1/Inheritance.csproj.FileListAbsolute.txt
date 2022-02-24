@@ -1,0 +1,14 @@
+C:\Users\Filip\Desktop\Programming Course G3\OOP Exercises\Classes and Instances\Inheritance\obj\Debug\netcoreapp3.1\Inheritance.csproj.AssemblyReference.cache
+C:\Users\Filip\Desktop\Programming Course G3\OOP Exercises\Classes and Instances\Inheritance\obj\Debug\netcoreapp3.1\Inheritance.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Filip\Desktop\Programming Course G3\OOP Exercises\Classes and Instances\Inheritance\obj\Debug\netcoreapp3.1\Inheritance.AssemblyInfoInputs.cache
+C:\Users\Filip\Desktop\Programming Course G3\OOP Exercises\Classes and Instances\Inheritance\obj\Debug\netcoreapp3.1\Inheritance.AssemblyInfo.cs
+C:\Users\Filip\Desktop\Programming Course G3\OOP Exercises\Classes and Instances\Inheritance\obj\Debug\netcoreapp3.1\Inheritance.csproj.CoreCompileInputs.cache
+C:\Users\Filip\Desktop\Programming Course G3\OOP Exercises\Classes and Instances\Inheritance\bin\Debug\netcoreapp3.1\Inheritance.exe
+C:\Users\Filip\Desktop\Programming Course G3\OOP Exercises\Classes and Instances\Inheritance\bin\Debug\netcoreapp3.1\Inheritance.deps.json
+C:\Users\Filip\Desktop\Programming Course G3\OOP Exercises\Classes and Instances\Inheritance\bin\Debug\netcoreapp3.1\Inheritance.runtimeconfig.json
+C:\Users\Filip\Desktop\Programming Course G3\OOP Exercises\Classes and Instances\Inheritance\bin\Debug\netcoreapp3.1\Inheritance.runtimeconfig.dev.json
+C:\Users\Filip\Desktop\Programming Course G3\OOP Exercises\Classes and Instances\Inheritance\bin\Debug\netcoreapp3.1\Inheritance.dll
+C:\Users\Filip\Desktop\Programming Course G3\OOP Exercises\Classes and Instances\Inheritance\bin\Debug\netcoreapp3.1\Inheritance.pdb
+C:\Users\Filip\Desktop\Programming Course G3\OOP Exercises\Classes and Instances\Inheritance\obj\Debug\netcoreapp3.1\Inheritance.dll
+C:\Users\Filip\Desktop\Programming Course G3\OOP Exercises\Classes and Instances\Inheritance\obj\Debug\netcoreapp3.1\Inheritance.pdb
+C:\Users\Filip\Desktop\Programming Course G3\OOP Exercises\Classes and Instances\Inheritance\obj\Debug\netcoreapp3.1\Inheritance.genruntimeconfig.cache

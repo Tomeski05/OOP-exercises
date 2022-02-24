@@ -149,9 +149,33 @@ namespace More_Exercises_on_Classes
 
         #region Task2
 
+        //public class MyPolynomial
+        //{
 
+        //    private double[] coeffs;
 
-        #endregion
+        //    public MyPolynomial(double[] coeffs)
+        //    {
+        //        this.coeffs = coeffs;
+        //    }
+
+        //    public double[] getCoeffs()
+        //    {
+        //        return coeffs;
+        //    }
+
+        //    public void setCoeffs(double[] coeffs)
+        //    {
+        //        this.coeffs = coeffs;
+        //    }
+
+        //    public int getDegree()
+        //    {
+        //        return coeffs.length - 1;
+        //    }
+        //}
+
+            #endregion
 
 
     }
