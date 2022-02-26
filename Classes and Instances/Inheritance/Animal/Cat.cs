@@ -6,24 +6,24 @@ namespace Inheritance.Animal
 {
     public class Cat: Mammal
     {
-        public Cat()
-        {
+        //public Cat()
+        //{
 
-        }
+        //}
 
-        public Cat(string name)
-        {
-            this.name = name;
-        }
+        //public Cat(string name)
+        //{
+        //    this.name = name;
+        //}
 
-        public void greets()
-        {
-            Console.WriteLine("Meow");
-        }
+        //public void greets()
+        //{
+        //    Console.WriteLine("Meow");
+        //}
 
-        public override string toString()
-        {
-            return $"Cat name {name}";
-        }
+        //public override string toString()
+        //{
+        //    return $"Cat name {name}";
+        //}
     }
 }

@@ -6,22 +6,22 @@ namespace Inheritance.Animal
 {
     public class Animal
     {
-        public string name;
+        //public string name;
 
-        public Animal()
-        {
+        //public Animal()
+        //{
 
-        }
+        //}
 
-        public Animal(string name)
-        {
-            this.name = name;
-        }
+        //public Animal(string name)
+        //{
+        //    this.name = name;
+        //}
 
-        public virtual string toString()
-        {
-            return $"Animal name {name}";
-        }
+        //public virtual string toString()
+        //{
+        //    return $"Animal name {name}";
+        //}
 
     }
 }

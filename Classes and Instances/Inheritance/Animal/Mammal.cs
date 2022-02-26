@@ -6,9 +6,9 @@ namespace Inheritance.Animal
 {
     public class Mammal: Animal
     {
-        public override string toString()
-        {
-            return $"Mammal name {name}";
-        }
+        //public override string toString()
+        //{
+        //    return $"Mammal name {name}";
+        //}
     }
 }
