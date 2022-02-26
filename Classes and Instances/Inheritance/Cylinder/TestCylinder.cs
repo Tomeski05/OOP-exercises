@@ -4,10 +4,10 @@ using System.Text;
 
 namespace Inheritance
 {
-    public class TestCylinder
-    {
-        public static void Main(string[] args)
-        {
+    //public class TestCylinder
+    //{
+        //public static void Main(string[] args)
+        //{
             //Cylinder c1 = new Cylinder();
             //Console.WriteLine("Cylinder:"
             //      + " radius=" + c1.getRadius()
@@ -24,8 +24,8 @@ namespace Inheritance
             //      + " volume=" + c2.getVolume());
 
 
-            Console.ReadLine();
+            //Console.ReadLine();
 
-        }
-    }
+        //}
+    //}
 }

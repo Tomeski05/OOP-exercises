@@ -4,8 +4,8 @@ namespace Exercises_on_Composition
 {
     class Program
     {
-        static void Main(string[] args)
-        {
+        //static void Main(string[] args)
+        //{
             #region Task1
             //Author ahTeck = new Author("Tan Ah Teck", "ahteck@nowhere.com", 'm');
             //Console.WriteLine(ahTeck.toString());
@@ -151,8 +151,8 @@ namespace Exercises_on_Composition
 
             #endregion
 
-            Console.ReadLine();
-        }
+            //Console.ReadLine();
+        //}
 
         #region Task1
         //public class Author

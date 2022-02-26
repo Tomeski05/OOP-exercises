@@ -4,8 +4,8 @@ namespace Classes_and_Instances
 {
     class ClassesandInstances
     {
-        static void Main(string[] args)
-        {
+        //static void Main(string[] args)
+        //{
             #region Task1
             //        // Declare an instance of Circle class called c1.
             //        // Construct the instance c1 by invoking the "default" constructor
@@ -247,8 +247,8 @@ namespace Classes_and_Instances
 
             #endregion
 
-            Console.ReadLine();
-        }
+           // Console.ReadLine();
+        //}
 
         #region Task1
         //    public class Circle

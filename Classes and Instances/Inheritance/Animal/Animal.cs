@@ -6,7 +6,7 @@ namespace Inheritance.Animal
 {
     public class Animal
     {
-        private string name;
+        public string name;
 
         public Animal()
         {
@@ -18,7 +18,7 @@ namespace Inheritance.Animal
             this.name = name;
         }
 
-        public string toString()
+        public virtual string toString()
         {
             return $"Animal name {name}";
         }

@@ -4,7 +4,11 @@ using System.Text;
 
 namespace Inheritance.Animal
 {
-    class Mammal
+    public class Mammal: Animal
     {
+        public override string toString()
+        {
+            return $"Mammal name {name}";
+        }
     }
 }
