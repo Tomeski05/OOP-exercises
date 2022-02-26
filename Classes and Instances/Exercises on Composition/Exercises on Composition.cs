@@ -855,8 +855,9 @@ namespace Exercises_on_Composition
 
         //    public double getGradient()
         //    {
-        //        
+        //        return getGradient();
         //    }
+        //}
 
         #endregion
 
@@ -924,12 +925,13 @@ namespace Exercises_on_Composition
         //        return (double)Math.Sqrt(Math.Pow((0 - this.x), 2) + Math.Pow((0 - this.y), 2));
         //    }
 
+        //    public string toString()
+        //    {
+        //        return
+        //    }
+
         //}
 
-        //     public string toString()
-        //     {
-        //        return 
-        //     }
 
         //public class MyCircle
         //{
