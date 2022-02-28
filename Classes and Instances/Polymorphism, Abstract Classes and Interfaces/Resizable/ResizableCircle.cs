@@ -15,9 +15,10 @@ namespace Polymorphism__Abstract_Classes_and_Interfaces.Resizable
 
         public ResizableCircle()
         {
+
         }
 
-        public String toString()
+        public string toString()
         {
             return $"(ResizableCircle " + " {this.toString()})";
         }

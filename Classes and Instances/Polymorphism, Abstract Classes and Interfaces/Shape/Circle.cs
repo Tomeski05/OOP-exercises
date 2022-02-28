@@ -10,6 +10,7 @@ namespace Polymorphism__Abstract_Classes_and_Interfaces.Shape
 
         public Circle()
         {
+
         }
 
         public Circle(double radius)
@@ -19,7 +20,8 @@ namespace Polymorphism__Abstract_Classes_and_Interfaces.Shape
 
         public Circle(double radius, string color, bool filled)
         {
-            //super(color, filled);
+            this.color = color;
+            this.filled = filled;
             this.radius = radius;
         }
 
