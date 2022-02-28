@@ -1,21 +1,22 @@
-﻿using System;
+﻿using Polymorphism__Abstract_Classes_and_Interfaces.MovableCircle;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Polymorphism__Abstract_Classes_and_Interfaces.MovableCircle
+namespace Polymorphism__Abstract_Classes_and_Interfaces
 {
-    public class MovablePoint: IMovable
+    public class MovablePoint2: IMovable
     {
         private int x;
         private int y;
         private int xSpeed;
         private int ySpeed;
 
-        public MovablePoint()
+        public MovablePoint2()
         {
         }
 
-        public MovablePoint(int x, int y, int xSpeed, int ySpeed)
+        public MovablePoint2(int x, int y, int xSpeed, int ySpeed)
         {
             this.x = x;
             this.y = y;
@@ -63,9 +64,9 @@ namespace Polymorphism__Abstract_Classes_and_Interfaces.MovableCircle
             this.ySpeed = ySpeed;
         }
 
-        public string toString()
+        public String toString()
         {
-            return $"( + x + , + y + ) speed = + { xSpeed}, + { ySpeed })";
+            return $"( + x + , + y + ) speed = {xSpeed},  { ySpeed})";
         }
 
         public void moveUp()

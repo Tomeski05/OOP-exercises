@@ -4,8 +4,8 @@ using System.Text;
 
 namespace Polymorphism__Abstract_Classes_and_Interfaces.Animal
 {
-    //public class Dog: Animal
-    //{
+    public class Dog: Animal
+    {
     //    private string name;
 
     //    public Dog()
@@ -28,5 +28,5 @@ namespace Polymorphism__Abstract_Classes_and_Interfaces.Animal
     //        Console.WriteLine("Woooooow");
     //    }
 
-    //}
+    }
 }

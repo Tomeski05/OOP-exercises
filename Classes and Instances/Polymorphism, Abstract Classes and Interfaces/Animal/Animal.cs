@@ -2,8 +2,8 @@
 
 namespace Polymorphism__Abstract_Classes_and_Interfaces
 {
-    //public abstract class Animal
-    //{
+    public abstract class Animal
+    {
     //    private string name;
 
     //    public Animal(string name)
@@ -17,5 +17,5 @@ namespace Polymorphism__Abstract_Classes_and_Interfaces
     //    }
 
     //    public abstract void greets();
-    //}
+    }
 }

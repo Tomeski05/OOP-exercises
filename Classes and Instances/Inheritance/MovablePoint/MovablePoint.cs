@@ -60,7 +60,7 @@ namespace Inheritance.MovablePoint
 
         public override string toString()
         {
-            return $" {this.setX(this.getX() + this.xSpeed))}";
+            //return $"{setX(getX() + xSpeed)}";
         }
 
         public MovablePoint move()

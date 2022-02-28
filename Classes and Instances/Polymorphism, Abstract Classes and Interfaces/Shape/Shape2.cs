@@ -2,18 +2,19 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Inheritance.Shape
+namespace Polymorphism__Abstract_Classes_and_Interfaces
 {
-    public class Shape
+    public abstract class Shape2
     {
-        public string color = "red";
-        public bool filled = true;
 
-        public Shape()
+        protected string color = "red";
+        protected bool filled = true;
+
+        public Shape2()
         {
         }
 
-        public Shape(string color, bool filled)
+        public Shape2(string color, bool filled)
         {
             this.color = color;
             this.filled = filled;
@@ -39,9 +40,13 @@ namespace Inheritance.Shape
             this.filled = filled;
         }
 
+        public abstract double getArea();
+
+        public abstract double getPerimeter();
+
         public virtual string toString()
         {
-            return $"(Shape + color = + { color} + ,filled = { filled})";
+            return $"(Shape color = { color} ,filled = { filled})";
         }
     }
 }

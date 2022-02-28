@@ -6,5 +6,6 @@ namespace Polymorphism__Abstract_Classes_and_Interfaces.AnimalAbstract
 {
     public abstract class Animal1
     {
+        public abstract void greeting();
     }
 }
