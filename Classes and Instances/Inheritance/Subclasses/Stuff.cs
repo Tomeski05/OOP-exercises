@@ -11,7 +11,8 @@ namespace Inheritance.Subclasses
 
         public Stuff(string name, string address, string school, double pay)
         {
-            //this.(name, address);
+            //this.name = name;
+            //this.adress = adress;
             this.school = school;
             this.pay = pay;
         }
