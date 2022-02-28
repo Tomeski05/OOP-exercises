@@ -23,7 +23,8 @@ namespace Exrecises_on_Composition_and_Inheritance
 
         public Cylinder(double radius, string color)
         {
-            this.(radius, color);
+            //this.radius1 = radius1;
+            //this.color1 = color1;
             this.base = new Circle();
         }
 
@@ -36,7 +37,8 @@ namespace Exrecises_on_Composition_and_Inheritance
 
         public Cylinder(double radius, double height, string color)
         {
-            this.(radius, color);
+            //this.radius1 = radius1;
+            //this.color1 = color1;
             this.height = height;
             this.base = new Circle();
         }

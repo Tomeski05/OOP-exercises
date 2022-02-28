@@ -48,6 +48,10 @@
               "target": "Package",
               "version": "[6.0.0, )"
             },
+            "Microsoft.OData.Edm": {
+              "target": "Package",
+              "version": "[7.10.0, )"
+            },
             "NPOI": {
               "target": "Package",
               "version": "[2.5.5, )"

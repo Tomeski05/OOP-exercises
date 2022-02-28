@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "EPjASzTd2oGCR92onYLRRsUN0LgbDEQ7zjV6PwqkhK4eT2cbT9DW+8las6A6BQfuf4A3O6gZ0ap7JUFKzewJzw==",
+  "dgSpecHash": "JHVCfWUlG3I6rf3wsML94TmtfQZOooMu7cZVRv9G2GZzJk9BboQeKsbgVuHB1pU94jGwQGBW/kGAWgDdhlvl/w==",
   "success": true,
   "projectFilePath": "C:\\Users\\Filip\\Desktop\\Programming Course G3\\OOP Exercises\\Classes and Instances\\More Exercises on Classes\\More Exercises on Classes.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Filip\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\Filip\\.nuget\\packages\\microsoft.netcore.platforms\\2.0.0\\microsoft.netcore.platforms.2.0.0.nupkg.sha512",
+    "C:\\Users\\Filip\\.nuget\\packages\\microsoft.odata.edm\\7.10.0\\microsoft.odata.edm.7.10.0.nupkg.sha512",
     "C:\\Users\\Filip\\.nuget\\packages\\microsoft.win32.systemevents\\4.5.0\\microsoft.win32.systemevents.4.5.0.nupkg.sha512",
     "C:\\Users\\Filip\\.nuget\\packages\\npoi\\2.5.5\\npoi.2.5.5.nupkg.sha512",
     "C:\\Users\\Filip\\.nuget\\packages\\portable.bouncycastle\\1.8.9\\portable.bouncycastle.1.8.9.nupkg.sha512",
@@ -14,10 +15,13 @@
     "C:\\Users\\Filip\\.nuget\\packages\\system.configuration.configurationmanager\\4.5.0\\system.configuration.configurationmanager.4.5.0.nupkg.sha512",
     "C:\\Users\\Filip\\.nuget\\packages\\system.drawing.common\\4.5.0\\system.drawing.common.4.5.0.nupkg.sha512",
     "C:\\Users\\Filip\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\Filip\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.6.0\\system.runtime.compilerservices.unsafe.4.6.0.nupkg.sha512",
     "C:\\Users\\Filip\\.nuget\\packages\\system.security.accesscontrol\\4.5.0\\system.security.accesscontrol.4.5.0.nupkg.sha512",
     "C:\\Users\\Filip\\.nuget\\packages\\system.security.cryptography.protecteddata\\4.5.0\\system.security.cryptography.protecteddata.4.5.0.nupkg.sha512",
     "C:\\Users\\Filip\\.nuget\\packages\\system.security.permissions\\4.5.0\\system.security.permissions.4.5.0.nupkg.sha512",
-    "C:\\Users\\Filip\\.nuget\\packages\\system.security.principal.windows\\4.5.0\\system.security.principal.windows.4.5.0.nupkg.sha512"
+    "C:\\Users\\Filip\\.nuget\\packages\\system.security.principal.windows\\4.5.0\\system.security.principal.windows.4.5.0.nupkg.sha512",
+    "C:\\Users\\Filip\\.nuget\\packages\\system.text.encodings.web\\4.7.2\\system.text.encodings.web.4.7.2.nupkg.sha512",
+    "C:\\Users\\Filip\\.nuget\\packages\\system.text.json\\4.6.0\\system.text.json.4.6.0.nupkg.sha512"
   ],
   "logs": []
 }

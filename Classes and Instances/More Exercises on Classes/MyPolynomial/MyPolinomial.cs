@@ -4,29 +4,28 @@ using System.Text;
 
 namespace More_Exercises_on_Classes.MyPolynomial
 {
-    //public class MyPolynomial
-    //{
+    public class MyPolynomial
+    {
+        //private double[] coeffs;
 
-    //    private double[] coeffs;
+        //public MyPolynomial(double[] coeffs)
+        //{
+        //    this.coeffs = coeffs;
+        //}
 
-    //    public MyPolynomial(double[] coeffs)
-    //    {
-    //        this.coeffs = coeffs;
-    //    }
+        //public double[] getCoeffs()
+        //{
+        //    return coeffs;
+        //}
 
-    //    public double[] getCoeffs()
-    //    {
-    //        return coeffs;
-    //    }
+        //public void setCoeffs(double[] coeffs)
+        //{
+        //    this.coeffs = coeffs;
+        //}
 
-    //    public void setCoeffs(double[] coeffs)
-    //    {
-    //        this.coeffs = coeffs;
-    //    }
-
-    //    public int getDegree()
-    //    {
-    //        return coeffs.length - 1;
-    //    }
-    //}
+        //public int getDegree()
+        //{
+        //    return coeffs.Length - 1;
+        //}
+    }
 }
