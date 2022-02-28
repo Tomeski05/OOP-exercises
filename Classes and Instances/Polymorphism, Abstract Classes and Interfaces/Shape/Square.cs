@@ -6,6 +6,7 @@ namespace Polymorphism__Abstract_Classes_and_Interfaces.Shape
 {
     public class Square : Rectangle
     {
+        protected double side;
 
         public Square()
         {
@@ -14,12 +15,14 @@ namespace Polymorphism__Abstract_Classes_and_Interfaces.Shape
 
         public Square(double side)
         {
-            //super(side, side);
+            this.side = side;
+            
         }
 
         public Square(double side, string color, bool filled)
         {
             //super(side, side, color, filled);
+            this.color = color;
         }
 
         public double getSide()

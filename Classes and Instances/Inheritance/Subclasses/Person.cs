@@ -11,6 +11,7 @@ namespace Inheritance.Subclasses
 
         public Person()
         {
+
         }
 
         public Person(string name, string address)
@@ -41,7 +42,7 @@ namespace Inheritance.Subclasses
 
         public virtual string toString()
         {
-            return "Person[" + "name=" + name + ",address=" + address + ']';
+            return $"(Person name = { name},address = {address})";
         }
     }
 }

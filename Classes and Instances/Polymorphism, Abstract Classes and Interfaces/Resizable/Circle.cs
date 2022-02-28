@@ -33,7 +33,7 @@ namespace Polymorphism__Abstract_Classes_and_Interfaces.Resizable
             return $"(Circle radius =  { radius})";
         }
 
-        public double getArea()
+        public virtual double getArea()
         {
             return radius * radius * Math.PI;
         }

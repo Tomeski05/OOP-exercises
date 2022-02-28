@@ -20,7 +20,6 @@ namespace Inheritance.Shape
 
         public Circle(double radius, string color, bool filled)
         {
-            //(color, filled);
             this.color = color;
             this.filled = filled;
             this.radius = radius;
@@ -43,7 +42,7 @@ namespace Inheritance.Shape
 
         public void setRadius(int radius)
         {
-            this.radius = radius;//To change body of generated methods, choose Tools | Templates.
+            this.radius = radius;
         }
     }
 }

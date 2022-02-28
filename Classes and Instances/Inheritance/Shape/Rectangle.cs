@@ -11,6 +11,7 @@ namespace Inheritance.Shape
 
         public Rectangle()
         {
+
         }
 
         public Rectangle(double width, double length)
@@ -21,7 +22,8 @@ namespace Inheritance.Shape
 
         public Rectangle(double width, double length, string color, bool filled)
         {
-            //(color, filled);
+            this.color = color;
+            this.filled = filled;
             this.width = width;
             this.length = length;
         }

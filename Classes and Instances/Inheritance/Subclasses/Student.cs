@@ -12,7 +12,8 @@ namespace Inheritance.Subclasses
 
         public Student(string name, string address, string program, int year, double fee)
         {
-            //this.(name, address);
+            //this.name = name;
+            //this.adress = adress;
             this.program = program;
             this.year = year;
             this.fee = fee;
@@ -20,7 +21,8 @@ namespace Inheritance.Subclasses
 
         public Student(string program, int year, double fee, string name, string address)
         {
-            //this.(name, address);
+            //this.name = name;
+            //this.adress = adress;
             this.program = program;
             this.year = year;
             this.fee = fee;

@@ -12,6 +12,7 @@ namespace Polymorphism__Abstract_Classes_and_Interfaces
 
         public Shape2()
         {
+
         }
 
         public Shape2(string color, bool filled)

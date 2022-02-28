@@ -15,7 +15,8 @@ namespace Inheritance.Point3D
 
         public Point3D(float x, float y, float z)
         {
-            //(x, y);
+            //this.x = x;
+            //this.y = y;
             this.z = z;
         }
 

@@ -11,6 +11,7 @@ namespace Polymorphism__Abstract_Classes_and_Interfaces.Shape
 
         public Rectangle()
         {
+
         }
 
         public Rectangle(double width, double length)
@@ -21,9 +22,10 @@ namespace Polymorphism__Abstract_Classes_and_Interfaces.Shape
 
         public Rectangle(double width, double length, string color, bool filled)
         {
-            //super(color, filled);
             this.width = width;
             this.length = length;
+            this.color = color;
+            this.filled = filled;
         }
 
         public double getWidth()

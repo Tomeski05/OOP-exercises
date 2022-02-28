@@ -14,12 +14,14 @@ namespace Inheritance.Shape
 
         public Square(double side)
         {
-            //(side, side);
+            //this.side = side;
         }
 
-        public Square(double side, String color, bool filled)
+        public Square(double side, string color, bool filled)
         {
-            //this.(side, side, color, filled);
+            //this.side = side;
+            this.color = color;
+            this.filled = filled;
         }
 
         public double getSide()

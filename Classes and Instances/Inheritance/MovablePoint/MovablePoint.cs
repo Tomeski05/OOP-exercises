@@ -22,7 +22,8 @@ namespace Inheritance.MovablePoint
 
         public MovablePoint(float x, float y, float xSpeed, float ySpeed)
         {
-            //super(x, y);
+            //this.x = x;
+            //this.y = y;
             this.xSpeed = xSpeed;
             this.ySpeed = ySpeed;
         }
@@ -60,7 +61,7 @@ namespace Inheritance.MovablePoint
 
         public override string toString()
         {
-            //return $"{setX(getX() + xSpeed)}";
+            return $"({setX(getX())} +  {xSpeed})";
         }
 
         public MovablePoint move()

@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="6.0.0" />
+    <PackageReference Include="Microsoft.OData.Edm" Version="7.10.0" />
     <PackageReference Include="NPOI" Version="2.5.5" />
   </ItemGroup>
 
