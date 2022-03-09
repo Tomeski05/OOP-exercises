@@ -7,64 +7,63 @@ namespace Exrecises_on_Composition_and_Inheritance
     public class Cylinder : Circle
     {
 
-        private Circle base;
+       
         private double height = 1.0;
 
         public Cylinder()
         {
-            this.base = new Circle();
+            
         }
 
         public Cylinder(double radius)
         {
-            //this.radius = radius;;
-            this.base = new Circle();
+            Radius = radius;
         }
 
         public Cylinder(double radius, string color)
         {
-            //this.radius1 = radius1;
-            //this.color1 = color1;
-            this.base = new Circle();
+            Radius = radius;
+            Color = color;
         }
 
         public Cylinder(double radius, double height)
         {
-            //this.radius = radius;
-            this.base = new Circle();
+            Radius = radius;
             this.height = height;
         }
 
         public Cylinder(double radius, double height, string color)
         {
-            //this.radius1 = radius1;
-            //this.color1 = color1;
+            Radius = radius;
+            Color = color;
             this.height = height;
-            this.base = new Circle();
         }
 
 
         public Cylinder(double radius1, string color1, double radius2, string color2)
         {
-            //this.radius1 = radius1;
-            //this.color1 = color1;
-            this.base = new Circle(radius2, color2);
+            Radius = radius1;
+            Color = color1;
+            Radius = radius2;
+            Color = color2;
         }
 
         public Cylinder(double height, double radius1, string color1, double radius2, string color2)
         {
-            //this.radius1 = radius1;
-            //this.color1 = color1;
+            Radius = radius1;
+            Color = color1;
             this.height = height;
-            this.base = new Circle(radius2, color2);
+            Radius = radius2;
+            Color = color2;
         }
 
         public Cylinder(double radius1, string color1, double radius2, string color2, double height)
         {
-            //this.radius1 = radius1;
-            //this.color1 = color1;
+            Radius = radius1;
+            Color = color1;
             this.height = height;
-            this.base = new Circle(radius2, color2);
+            Radius = radius2;
+            Color = color2;
         }
 
         public double getHeight()
@@ -79,22 +78,12 @@ namespace Exrecises_on_Composition_and_Inheritance
 
         public double getVolume()
         {
-            return this.getArea() * this.height;
+            return getArea() * height;
         }
 
-        public Circle getBase()
+        public override string toString()
         {
-            return base;
-        }
-
-        public void setBase(Circle base)
-        {
-            this.base = base;
-        }
-
-        public string toString()
-        {
-            return $"(Cylinder circle = {this.toString()} base = { base}, height =  { height})";
+            return $"(Cylinder circle = {toString()}, height =  { height})";
         }
     }
 }

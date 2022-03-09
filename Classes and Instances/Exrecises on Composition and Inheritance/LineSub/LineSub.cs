@@ -16,7 +16,7 @@ namespace Exrecises_on_Composition_and_Inheritance
 
         public LineSub(int beginX, int beginY, int endX, int endY)
         {
-            //this.beginX = beginX;
+            this.beginX = beginX;
             //this.beginY = beginY;
             end = new Point(endX, endY);
         }

@@ -4,8 +4,8 @@ namespace Inheritance
 {
     public class Circle 
     {
-        public double radius = 1.0;
-        public string color = "red";
+        private double radius = 1.0;
+        private string color = "red";
 
         public Circle()
         {
